@@ -1,16 +1,26 @@
 .header
-    display: flex
-    flex-wrap: wrap
-    justify-content: space-around
-    padding: 20px
+    padding: 5px
     border: 2px solid black
+    .slick-prev, .slick-next
+        img
+            max-width: 50px
+            max-height: 50px
     img
         display: block
         margin: 0 auto
-        width: 100px
-        height: 100px
-    div
-        border: 1px solid black
-        padding: 10px 10px
+        width: 80px
+        height: 80px
+    .first-lvl
+        display: flex
+        justify-content: space-around
         div
+            display: block
+            text-align: center
+            border: none
+    .second-lvl, .third-lvl
+        display: none
+        justify-content: space-around
+        div
+            display: block
+            text-align: center
             border: none
